@@ -232,6 +232,10 @@ The modified bootrom contains SD card boot loader and extended device tree.
 RISC-V SoC in this repo contains DDR, UART, SD and Ethernet controllers.
 DDR is provided by Vivado. UART, SD and Ethernet are open source Verilog.
 
+The Linux kernel includes Bluetooth and Bluetooth Low Energy (BLE) support as loadable modules.
+BLE devices can be connected via USB BLE dongles or UART-connected BLE modules.
+See [BLE Support](docs/ble-support.md) for setup instructions.
+
 SD controller implements SD HS (High Speed) specs, 25MB/s read/write speed.
 
 Ethernet controller is based on [Verilog Ethernet Components](https://github.com/alexforencich/verilog-ethernet) project,
